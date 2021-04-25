@@ -1,0 +1,10 @@
+C:\Users\gmb\Desktop\Examen Final\Cliente_profesor\Cliente_profesor\bin\Debug\Cliente_profesor.exe.config
+C:\Users\gmb\Desktop\Examen Final\Cliente_profesor\Cliente_profesor\bin\Debug\Cliente_profesor.exe
+C:\Users\gmb\Desktop\Examen Final\Cliente_profesor\Cliente_profesor\bin\Debug\Cliente_profesor.pdb
+C:\Users\gmb\Desktop\Examen Final\Cliente_profesor\Cliente_profesor\obj\Debug\Cliente_profesor.csprojAssemblyReference.cache
+C:\Users\gmb\Desktop\Examen Final\Cliente_profesor\Cliente_profesor\obj\Debug\Cliente_profesor.Form1.resources
+C:\Users\gmb\Desktop\Examen Final\Cliente_profesor\Cliente_profesor\obj\Debug\Cliente_profesor.Properties.Resources.resources
+C:\Users\gmb\Desktop\Examen Final\Cliente_profesor\Cliente_profesor\obj\Debug\Cliente_profesor.csproj.GenerateResource.cache
+C:\Users\gmb\Desktop\Examen Final\Cliente_profesor\Cliente_profesor\obj\Debug\Cliente_profesor.csproj.CoreCompileInputs.cache
+C:\Users\gmb\Desktop\Examen Final\Cliente_profesor\Cliente_profesor\obj\Debug\Cliente_profesor.exe
+C:\Users\gmb\Desktop\Examen Final\Cliente_profesor\Cliente_profesor\obj\Debug\Cliente_profesor.pdb
