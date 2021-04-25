@@ -29,11 +29,11 @@ namespace Cliente_profesor
                 string men = "";
                 if(btnverdadero.Checked)
                 {
-                    men = txtpregunta.Text + ",1";
+                    men = "profesor," + txtpregunta.Text + ",1";
                 }
                 else if (btnfalso.Checked)
                 {
-                    men = txtpregunta.Text + ",0";
+                    men = "profesor," + txtpregunta.Text + ",0";
                 }
 
                 NetworkStream serverStream = clienteSocket.GetStream();
@@ -41,26 +41,17 @@ namespace Cliente_profesor
                 serverStream.Write(mensajeCliente, 0, mensajeCliente.Length);
                 serverStream.Flush();
 
-                
-
                 byte[] mensajeServidor = new byte[10025];
                 serverStream.Read(mensajeServidor, 0, 10024);
                 string me = System.Text.Encoding.ASCII.GetString(mensajeServidor);
-                string[] Rival = me.Split(new Char[] { ';' });
+                me = me.Substring(0, me.IndexOf("$"));
+
+                MessageBox.Show(me, "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-
-                throw;
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-        }
-    }
-
-    internal class clienteSocket
-    {
-        internal static void Connect(string v1, int v2)
-        {
-            throw new NotImplementedException();
         }
     }
 }
